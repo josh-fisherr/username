@@ -10,7 +10,7 @@ echo it must start with a lower case letter and contain at least 3 but no more
 echo than 12 characters
 echo Enter the string: 
 read -r userString
-while [[ ! "$userString" =~ ^[a-z][a-z0-9_]{2,11}$ ]];
+while ! echo "$userString" | grep -E '^[a-z][a-z0-9_]{2,11}$' > /dev/null;
  do
   echo "Invalid username! Please try again."
   echo "Please enter a valid username: "
