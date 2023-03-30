@@ -35,7 +35,8 @@ Complete the innformaton below
 
 ## Source Files
 
-* 
+* username-input
+* username.sh
 
 ## References
 
@@ -47,7 +48,7 @@ Complete the innformaton below
 
 ## Build Instructions
 
-*
+* 
 
 ## Execution Instructions
 
